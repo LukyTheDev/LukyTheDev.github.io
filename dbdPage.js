@@ -16,7 +16,6 @@ hamburger.addEventListener('click', () => {
         secondHpart.classList.add('disappear')
         thirdHpart.classList.add('thirdHpartAnimation')
         menuStatus = true
-        
     }
     else {
         tentMenu.style.transform = "scaleX(0)"
@@ -26,7 +25,6 @@ hamburger.addEventListener('click', () => {
         thirdHpart.classList.remove('thirdHpartAnimation')
         menuStatus = false
     }
-    
 })
 
 //////////////////////////////////////////////////////loader/////////////////////////////////
@@ -82,7 +80,7 @@ const content2Changes = [{
     imgRight : '/Assets/utilities/PG/trapper.png',
     title : 'Streamer',
     paragraph : 'Gioca con gli streamer più amati dalla community di dbd Italia e fai parte delle loro live su twitch🎬'
-},]
+}]
 
 let currentContent2Item = 0
 let currentContent2Slide = content2Changes[currentContent2Item]
