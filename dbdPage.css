@@ -23,7 +23,8 @@
     --font1 : 'Poppins';
     --font2 : 'Montserrat';
     --font3 : 'Lato';
-    --media-font: 'Social Media Circled'
+    --media-font: 'Social Media Circled', sans-serif;
+                                                
 }
 /* styling the scrollbar*/
 
