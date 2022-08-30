@@ -23,7 +23,7 @@
     --font1 : 'Poppins';
     --font2 : 'Montserrat';
     --font3 : 'Lato';
-    --media-font: 'Social Media Circled', sans-serif;
+    --media-font: 'social-media-circled-regular', sans-serif;
                                                 
 }
 /* styling the scrollbar*/
@@ -60,7 +60,7 @@ body {
 }
 .loader img {
     aspect-ratio: 1/1;
-    width: 25vw;
+    width: 20vw;
 }
 
 /* loader animation */
@@ -462,7 +462,7 @@ header {
         bottom: 0;
         background-image: url('/Assets/utilities/border.png');
         background-position: center center;
-        background-size: 100% 100%;
+        background-size: 101% 101%;
         background-repeat: no-repeat;
         display: flex;
         flex-direction: row;
@@ -665,7 +665,7 @@ footer {
     .content .intro {
         font-family: var(--font3);
         width: 80vw;
-        font-size: 3vw;
+        font-size: 2.8vw;
     }
     .first-content-btn-container {
         justify-content: space-around;
@@ -767,7 +767,7 @@ footer {
     .content .intro {
         font-family: var(--font3);
         width: 80vw;
-        font-size: 3.5vw;
+        font-size: 2.8vw;
     }
     @keyframes switch-text {
         0%, 100%,5% {
